@@ -86,7 +86,7 @@ for i in range(0,len(places)):
 Semi-Structured Raw Data :Json Format
 
 
-![Image of Plot](https://github.com/IE-555/api-sohit-reddy-akshay-agrawal-1/blob/master/images/raw.png)
+![Image of Plot](images/raw.png)
 
 ---
 - In the above code the raw data as seen in figure is filtered, transformed:scaled in order to create a good machine learning algorithm
@@ -109,7 +109,7 @@ plt.show()
 
 Box Plot
  
-![Image of Plot](https://github.com/IE-555/api-sohit-reddy-akshay-agrawal-1/blob/master/images/xscaled.PNG)
+![Image of Plot](images/xscaled.PNG)
 
 - we need to eliminate outliers : Virtual appearence of outliers after scaling.
 - For more information regarading outliers - check source.
@@ -122,7 +122,7 @@ plt.show()
 ```
 Density Plot
 
-![Image of Plot](https://github.com/IE-555/api-sohit-reddy-akshay-agrawal-1/blob/master/images/xscaled1.PNG)
+![Image of Plot](images/xscaled1.PNG)
 
 - Even after scaling all the variables are not distributed normally: because they data values may be sparsely distributed.
  So, need of principal components: Reducing attributes and capturing the same variance from the original data.
@@ -139,7 +139,7 @@ plt.scatter(pdf['A'],pdf['B'])
 ```
 PCA Plot:
 
-![Image of Plot](https://github.com/IE-555/api-sohit-reddy-akshay-agrawal-1/blob/master/images/pca.PNG)
+![Image of Plot](images/pca.PNG)
 
 - After performing PCA, checking whether the co-relation exists using the graph.In the above case we can infer that we have uncorrelated Principle components.
 
@@ -151,7 +151,7 @@ plt.show()
 ```
 Box Plot after PCA:
 
-![Image of Plot](https://github.com/IE-555/api-sohit-reddy-akshay-agrawal-1/blob/master/images/pca_box.PNG)
+![Image of Plot](images/pca_box.PNG)
 
 - Outlier problem is solved by PCA.
 
@@ -161,7 +161,7 @@ plt.show()
 ```
 Density Plot after PCA:
 
-![Image of Plot](https://github.com/IE-555/api-sohit-reddy-akshay-agrawal-1/blob/master/images/density.PNG)
+![Image of Plot](images/density.PNG)
 
 - Both Closely Follow normal distruibution
 - PCA solves normal distribution problem as well
@@ -180,7 +180,7 @@ plt.show()
 **Output of Kmeans**
 
 
-![Image of Plot](https://github.com/IE-555/api-sohit-reddy-akshay-agrawal-1/blob/master/images/kmeans.PNG)
+![Image of Plot](images/kmeans.PNG)
 
 
 - The above code performs scaling on the dataframe.It converts every column vector to the range, often between zero and one, or so that  the maximum absolute value of each feature is scaled to unit size.Standard normalization of data.
@@ -216,7 +216,7 @@ def regioncolors(counter):
 x["color"] = x.apply(regioncolors, axis=1)
 ```
 
-![Image of Plot](https://github.com/IE-555/api-sohit-reddy-akshay-agrawal-1/blob/master/images/filtereddata.PNG)
+![Image of Plot](images/filtereddata.PNG)
 
 
 - The above code is used to apply the function ,which is later appended to the dataframe.
@@ -240,7 +240,7 @@ display(map)
 **CLustered Cities on Map (by Colour)*
 
 
-![Image of Plot](https://github.com/IE-555/api-sohit-reddy-akshay-agrawal-1/blob/master/images/final.PNG)
+![Image of Plot](images/final.PNG)
 
 ## How to Run the Code
 
